@@ -5,7 +5,7 @@ const Input = () => {
 const ChangeInput=(e)=>{
     const arr = e?.target?.value;
     setInput(arr)
-    console.log(arr)
+    console.log("hello",arr)
 }
   return (
     <div className='bg-black p-10'>
